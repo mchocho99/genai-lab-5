@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 
-mcp = FastMCP("HelloServer")
+mcp = FastMCP("Count Letters Server")
 
 @mcp.tool
 def count_letter(text: str, letter: str) -> int:
